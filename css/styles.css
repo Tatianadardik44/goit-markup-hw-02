@@ -1,0 +1,36 @@
+.fon {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  padding-left: 472px;
+  padding-right: 472px;
+  padding-top: 188px;
+  padding-bottom: 48px;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+.fon-btr {
+  border-radius: 4px;
+  background: #4d5ae5;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  margin: 0 auto;
+  display: block;
+  color: #fff;
+  cursor: pointer;
+}
+.fon-btr:hover,
+fon-btr:focus {
+  background: #404bbf;
+}
