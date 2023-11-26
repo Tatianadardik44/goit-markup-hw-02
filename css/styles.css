@@ -1,6 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
   background: #fff;
+  color: #2e2f42;
 }
 .hero {
   background-color: #2e2f42;
@@ -15,11 +16,10 @@ h1 {
   padding-right: 472px;
   padding-top: 188px;
   padding-bottom: 48px;
-  font-family: Roboto;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px; 
+  line-height: 60px;
   letter-spacing: 1.12px;
 }
 .hero-btr {
@@ -39,19 +39,34 @@ fon-btr:focus {
   background: #404bbf;
 }
 .logo {
-  font-family: Raleway, serif;
-  color: #2e2f42;
+  font-family: Raleway, sans-serif;
+  color: inherit;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px; 
+  line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-top: 24px;
+  text-decoration: none;
+  padding-left: 156px;
+}
+
+.logo-fotter {
+  font-family: Raleway, sans-serif;
+  color: inherit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  flex-shrink: 0;
+  margin-top: 100px;
+  margin-bottom: 18px;
   margin-left: 156px;
   margin-right: 1169px;
-  margin-bottom: 24px;
-  text-decoration: none;
 }
 .top {
   display: inline;
@@ -61,42 +76,58 @@ fon-btr:focus {
   display: inline;
   text-decoration: none;
 }
-.logo .accent {
+
+.accent {
   color: #4d5ae5;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px; 
+  line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 .left-hend {
-  color: #2e2f42;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; 
+  line-height: 24px;
   letter-spacing: 0.32px;
   text-decoration: none;
+  color: inherit;
+  padding-left: 347px;
+  padding-top: 24px;
+}
+.left-hend:hover {
+  color: #404bbf;
+}
+.left-hend:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+.middle {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  color: inherit;
+}
+.middle:hover {
+  color: #404bbf;
 }
 
-.middle {
-  color: #2e2f42;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500
-  line-height: 24px; 
-  letter-spacing: 0.32px;
-  text-decoration: none;
-}
 .right-hend {
-  color: #2e2f42;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; 
+  line-height: 24px;
   letter-spacing: 0.32px;
   text-decoration: none;
+  color: inherit;
+}
+.right-hend:hover {
+  color: #404bbf;
 }
 
 .mail {
@@ -104,17 +135,69 @@ fon-btr:focus {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; 
+  line-height: 24px;
   letter-spacing: 0.32px;
   color: #434455;
+}
+.mail:hover {
+  color: #404bbf;
 }
 .tel {
   text-decoration: none;
   color: #434455;
-
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+}
+.tel:hover {
+  color: #404bbf;
+}
+.topchic {
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.action-plan {
+  color: inherit;
+  font-family: inherit;
+}
+.explanations {
+  color: #434455;
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.directions {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.chek {
+  display: inline;
+}
+.team-photo {
+  display: inline;
+}
+.leaders {
+  font-family: inherit;
+  color: inherit;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
 }
