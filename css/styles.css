@@ -9,7 +9,7 @@ body {
   height: 600px;
   flex-shrink: 0;
 }
-h1 {
+.hero-item {
   color: #fff;
   text-align: center;
   padding-left: 472px;
@@ -19,7 +19,7 @@ h1 {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.071;
   letter-spacing: 1.12px;
 }
 .hero-btr {
@@ -33,6 +33,12 @@ h1 {
   display: block;
   color: #fff;
   cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
 }
 .hero-btr:hover,
 fon-btr:focus {
@@ -44,32 +50,29 @@ fon-btr:focus {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.166;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  padding-left: 156px;
+  
 }
 
 .logo-fotter {
   font-family: Raleway, sans-serif;
-  color: inherit;
+  color: #F4F4FD;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
-  display: inline-flex;
-  height: 24px;
-  align-items: center;
-  flex-shrink: 0;
-  margin-top: 100px;
-  margin-bottom: 18px;
-  margin-left: 156px;
-  margin-right: 1169px;
+  line-height: 1.166;
+  letter-spacing: 0.54px;
+  
 }
+  
 .top {
   display: inline;
+  
 }
 
 .connection {
@@ -82,7 +85,7 @@ fon-btr:focus {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.166;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -90,12 +93,11 @@ fon-btr:focus {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
   color: inherit;
-  padding-left: 347px;
-  padding-top: 24px;
+
 }
 .left-hend:hover {
   color: #404bbf;
@@ -108,7 +110,7 @@ fon-btr:focus {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
   color: inherit;
@@ -121,7 +123,7 @@ fon-btr:focus {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
   color: inherit;
@@ -135,7 +137,7 @@ fon-btr:focus {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
   color: #434455;
 }
@@ -148,21 +150,13 @@ fon-btr:focus {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .tel:hover {
   color: #404bbf;
 }
-.topchic {
-  display: flex;
-  width: 1440px;
-  height: 72px;
-  align-items: center;
-  flex-shrink: 0;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+
 .action-plan {
   color: inherit;
   font-family: inherit;
@@ -171,16 +165,16 @@ fon-btr:focus {
   color: #434455;
   font-family: inherit;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+  
+  
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .directions {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .chek {
@@ -195,7 +189,7 @@ fon-btr:focus {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
@@ -204,9 +198,9 @@ fon-btr:focus {
   font-family: inherit;
   color: #434455;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+  
+  
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .name {
@@ -215,7 +209,7 @@ fon-btr:focus {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .foto-item {
@@ -227,7 +221,7 @@ fon-btr:focus {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
@@ -238,15 +232,32 @@ fon-btr:focus {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .short-description {
   font-family: inherit;
   color: #434455;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+  
+  
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.foot {
+ background-color: #2E2F42;
+ width: 1440px
+ height: 312px
+ top: 2988px
+}
+.foot-text {
+  color:  #F4F4FD;
+  font-family: inherit;
+  font-size: 16px;
+  
+ 
+  line-height: 1.5;
+  letter-spacing: 0.32px
+
+}
+
