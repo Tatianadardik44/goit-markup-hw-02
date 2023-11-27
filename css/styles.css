@@ -5,8 +5,7 @@ body {
 }
 .hero {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
+  
  
 }
 .hero-item {
@@ -16,7 +15,7 @@ body {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.071;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .hero-btr {
@@ -36,16 +35,16 @@ body {
 fon-btr:focus {
   background: #404bbf;
 }
-.logo {
-  font-family: Raleway, sans-serif;
+.accent {
+ 
   color: #2e2f42;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.166;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  text-decoration: none;
+  
   
 }
 
@@ -57,7 +56,7 @@ fon-btr:focus {
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
-  line-height: 1.166;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   
 }
@@ -67,36 +66,29 @@ fon-btr:focus {
 
 
 .connection {
- display: inline;
+ 
   text-decoration: none;
 }
-
-.accent {
+.logo {
   color: #4d5ae5;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.166;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-}
-.left-hend {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
   text-decoration: none;
- color: #2e2f42;
+  font-family: Raleway, sans-serif;
+}
 
-}
-.left-hend:hover {
+
+
+.middle:hover,
+.middle:focus {
   color: #404bbf;
 }
-.left-hend:active {
-  color: #404bbf;
-  text-decoration: underline;
-}
+
+
 .middle {
   font-size: 16px;
   font-style: normal;
@@ -106,47 +98,24 @@ fon-btr:focus {
   text-decoration: none;
   color: #2e2f42;
 }
-.middle:hover {
-  color: #404bbf;
-}
-
-.right-hend {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  text-decoration: none;
-  color: #2e2f42;
-}
-.right-hend:hover {
-  color: #404bbf;
-}
+.contacts {
+ font-style: normal;
+ }
 
 .mail {
   text-decoration: none;
   font-size: 16px;
-  font-style: normal;
+  
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
   color:inherit;
 }
-.mail:hover {
-  color: #404bbf;
+.mail:hover,
+.mail:focus {
+  color: #404bbf; 
 }
-.tel {
-  text-decoration: none;
-  color: inherit;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-.tel:hover {
-  color: #404bbf;
-}
+
 
 .action-plan {
  color: #2e2f42;
@@ -177,7 +146,7 @@ fon-btr:focus {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.1;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   
@@ -200,22 +169,14 @@ fon-btr:focus {
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
-.top {
-  display: inline;
-}
-.team-photo {
- display: inline; 
-}
-.foto-item {
-  display: inline;
-}
+
 .portfo {
   font-family: inherit;
   color: #2e2f42;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.1;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   
@@ -240,8 +201,7 @@ fon-btr:focus {
 }
 .foot {
  background-color: #2E2F42;
- width: 1440px
- height: 312px
+ 
 
 }
 .foot-text {
