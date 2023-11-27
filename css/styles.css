@@ -27,7 +27,7 @@ body {
   letter-spacing: 0.64px;
 }
 .hero-btr:hover,
-.hero-btr :focus {
+.hero-btr:focus {
   background-color: #404bbf;
 }
 .accent {
