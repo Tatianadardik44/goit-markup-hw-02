@@ -1,21 +1,18 @@
 body {
   font-family: Roboto, sans-serif;
   background: #fff;
-  color: #2e2f42;
+  color:  #434455;
 }
 .hero {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
-  flex-shrink: 0;
+ 
 }
 .hero-item {
   color: #fff;
   text-align: center;
-  padding-left: 472px;
-  padding-right: 472px;
-  padding-top: 188px;
-  padding-bottom: 48px;
+ 
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -23,14 +20,9 @@ body {
   letter-spacing: 1.12px;
 }
 .hero-btr {
-  border-radius: 4px;
+
   background: #4d5ae5;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-bottom: 16px;
-  padding-top: 16px;
-  margin: 0 auto;
-  display: block;
+
   color: #fff;
   cursor: pointer;
   font-family: inherit;
@@ -46,7 +38,7 @@ fon-btr:focus {
 }
 .logo {
   font-family: Raleway, sans-serif;
-  color: inherit;
+  color: #2e2f42;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -70,13 +62,12 @@ fon-btr:focus {
   
 }
   
-.top {
-  display: inline;
+
   
-}
+
 
 .connection {
-  display: inline;
+ display: inline;
   text-decoration: none;
 }
 
@@ -96,7 +87,7 @@ fon-btr:focus {
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
-  color: inherit;
+ color: #2e2f42;
 
 }
 .left-hend:hover {
@@ -113,7 +104,7 @@ fon-btr:focus {
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
-  color: inherit;
+  color: #2e2f42;
 }
 .middle:hover {
   color: #404bbf;
@@ -126,7 +117,7 @@ fon-btr:focus {
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
-  color: inherit;
+  color: #2e2f42;
 }
 .right-hend:hover {
   color: #404bbf;
@@ -139,14 +130,14 @@ fon-btr:focus {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: #434455;
+  color:inherit;
 }
 .mail:hover {
   color: #404bbf;
 }
 .tel {
   text-decoration: none;
-  color: #434455;
+  color: inherit;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -158,11 +149,11 @@ fon-btr:focus {
 }
 
 .action-plan {
-  color: inherit;
+ color: #2e2f42;
   font-family: inherit;
 }
 .explanations {
-  color: #434455;
+  color: inherit;
   font-family: inherit;
   font-size: 16px;
   
@@ -177,26 +168,23 @@ fon-btr:focus {
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
-.chek {
-  display: inline;
-}
-.team-photo {
-  display: inline;
-}
+
+
+
 .leaders {
   font-family: inherit;
-  color: inherit;
+  color: #2e2f42;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  text-align: center;
+  
 }
 .prof {
   font-family: inherit;
-  color: #434455;
+  color: inherit;
   font-size: 16px;
   
   
@@ -205,30 +193,36 @@ fon-btr:focus {
 }
 .name {
   font-family: inherit;
-  color: inherit;
+  color: #2e2f42;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
+.top {
+  display: inline;
+}
+.team-photo {
+ display: inline; 
+}
 .foto-item {
   display: inline;
 }
 .portfo {
   font-family: inherit;
-  color: inherit;
+  color: #2e2f42;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  text-align: center;
+  
 }
 .service {
   font-family: inherit;
-  color: inherit;
+  color: #2e2f42;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -237,7 +231,7 @@ fon-btr:focus {
 }
 .short-description {
   font-family: inherit;
-  color: #434455;
+  color:
   font-size: 16px;
   
   
@@ -248,7 +242,7 @@ fon-btr:focus {
  background-color: #2E2F42;
  width: 1440px
  height: 312px
- top: 2988px
+
 }
 .foot-text {
   color:  #F4F4FD;
