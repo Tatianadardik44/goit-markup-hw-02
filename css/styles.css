@@ -1,12 +1,10 @@
 body {
   font-family: Roboto, sans-serif;
   background: #fff;
-  color:  #434455;
+  color: #434455;
 }
 .hero {
   background-color: #2e2f42;
-  
- 
 }
 .hero-item {
   color: #fff;
@@ -18,7 +16,6 @@ body {
   letter-spacing: 1.12px;
 }
 .hero-btr {
-
   background-color: #4d5ae5;
   color: #fff;
   cursor: pointer;
@@ -30,11 +27,10 @@ body {
   letter-spacing: 0.64px;
 }
 .hero-btr:hover,
-fon-btr:focus {
-  background-color:  #404BBF;
+.hero-btr :focus {
+  background-color: #404bbf;
 }
 .accent {
- 
   color: #2e2f42;
   font-size: 18px;
   font-style: normal;
@@ -42,13 +38,11 @@ fon-btr:focus {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  
-  
 }
 
 .logo-fotter {
   font-family: Raleway, sans-serif;
-  color: #4D5AE5;
+  color: #4d5ae5;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -56,26 +50,20 @@ fon-btr:focus {
   text-decoration: none;
   line-height: 1.17;
   letter-spacing: 0.54px;
-  
 }
 .accent-footer {
-  color:  #F4F4FD;
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.54px;
-text-transform: uppercase;
-text-decoration: none;
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
-  
-
-  
-
 
 .connection {
- 
   text-decoration: none;
 }
 .logo {
@@ -90,13 +78,10 @@ text-decoration: none;
   font-family: Raleway, sans-serif;
 }
 
-
-
 .middle:hover,
 .middle:focus {
   color: #404bbf;
 }
-
 
 .middle {
   font-size: 16px;
@@ -108,8 +93,8 @@ text-decoration: none;
   color: #2e2f42;
 }
 .contacts {
- font-style: normal;
- }
+  font-style: normal;
+}
 
 .mail {
   text-decoration: none;
@@ -117,20 +102,19 @@ text-decoration: none;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color:inherit;
+  color: inherit;
 }
 .mail:hover,
 .mail:focus {
-  color: #404bbf; 
+  color: #404bbf;
 }
 
-
 .action-plan {
- color: #2e2f42;
+  color: #2e2f42;
   font-family: inherit;
 }
 .explanations {
-  color:  #434455 ;
+  color: #434455;
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
@@ -144,11 +128,8 @@ text-decoration: none;
   letter-spacing: 0.4px;
 }
 .employees {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
- 
-
-
 
 .leaders {
   font-family: inherit;
@@ -162,7 +143,7 @@ text-decoration: none;
   text-align: center;
 }
 .team-photo {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .prof {
   font-family: inherit;
@@ -203,22 +184,18 @@ text-decoration: none;
 }
 .short-description {
   font-family: inherit;
-  color:
+  color: inherit;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
- }
+}
 .foot {
- background-color: #2E2F42;
- 
-
+  background-color: #2e2f42;
 }
 .foot-text {
-  color:  #F4F4FD;
+  color: #f4f4fd;
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px
-
+  letter-spacing: 0.32px;
 }
-
