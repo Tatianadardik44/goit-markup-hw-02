@@ -20,7 +20,7 @@ body {
 }
 .hero-btr {
 
-  background: #4d5ae5;
+  background-color: #4d5ae5;
 
   color: #fff;
   cursor: pointer;
@@ -50,7 +50,7 @@ fon-btr:focus {
 
 .logo-fotter {
   font-family: Raleway, sans-serif;
-  color: #F4F4FD;
+  color: #4D5AE5;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -59,6 +59,17 @@ fon-btr:focus {
   line-height: 1.17;
   letter-spacing: 0.54px;
   
+}
+.accent-footer {
+  color:  #F4F4FD;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+text-decoration: none;
 }
   
 
@@ -137,6 +148,10 @@ fon-btr:focus {
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
+.employees {
+  background-color: #F4F4FD;
+}
+ 
 
 
 
@@ -146,10 +161,13 @@ fon-btr:focus {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  
+  text-align: center;
+}
+.team-photo {
+  background-color: #FFFFFF;
 }
 .prof {
   font-family: inherit;
@@ -176,10 +194,10 @@ fon-btr:focus {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  
+  text-align: center;
 }
 .service {
   font-family: inherit;
